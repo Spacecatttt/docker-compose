@@ -3,7 +3,7 @@ version: '3.2'
 
 services:
   configurator-api-core:
-    image: dev-registry.int.portaone.com/configurator-api/configurator-api-core:latest
+    image: spacecatttt/configurator-api-core
     ports:
       - "8701:8701"
     networks:
