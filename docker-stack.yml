@@ -35,7 +35,6 @@ services:
         delay: 10s
         condition: any
         max_attempts: 5
-        start_period: 10
     healthcheck:
       test: ["CMD", "curl", "--fail", "--insecure", "https://localhost:8701/health"]
       interval: 20s
